@@ -29,18 +29,13 @@ The data was analyzed to identify trends, customer behavior patterns, and busine
 ### Programming & Analysis
 
 * Python
-
-  * Pandas
-  * NumPy
-  * Matplotlib
-  * Seaborn
+* Pandas
+* Jupyter Notebook
 
 ### Database
 
 * SQL
-
-  * PostgreSQL
-
+* PostgreSQL
 
 ### Visualization
 
@@ -50,10 +45,6 @@ The data was analyzed to identify trends, customer behavior patterns, and busine
 
 * Microsoft PowerPoint
 * Gamma AI
-
-### Development Environment
-
-* Jupyter Notebook
 
 ---
 
@@ -80,9 +71,9 @@ The data was analyzed to identify trends, customer behavior patterns, and busine
 
 ### 4. SQL Analysis
 
-* Imported data into a relational database.
+* Imported data into PostgreSQL.
 * Wrote SQL queries to answer business questions.
-* Used aggregations, joins, filtering, window functions, and ranking techniques.
+* Used aggregations, joins, filtering, and ranking techniques.
 * Generated insights related to customer purchasing behavior.
 
 ### 5. Dashboard Development
@@ -134,26 +125,14 @@ These insights can help businesses improve marketing strategies, customer engage
 ## Repository Structure
 
 ```text
-├── Data/
-│   └── customer_shopping_behavior.csv
-│
-├── Notebooks/
-│   └── customer_shopping_behavior.ipynb
-│
-├── SQL/
-│   └── Customer Behavior Analysis SQL Queries.sql
-│
-├── PowerBI/
-│   └── Customer Behavior Dashboard.pbix
-│
-├── Reports/
-│   └── Analysis Report.pdf
-│
-├── Presentation/
-│   └── Gamma Presentation.pptx
-│
+├── Customer Behavior Analysis SQL Queries.sql
+├── Customer Behavior Dashboard.pbix
+├── customer_shopping_behavior.csv
+├── customer_shopping_behavior-checkpoint.ipynb
 └── README.md
 ```
+
+---
 
 ## How to Run
 
@@ -168,7 +147,7 @@ git clone <repository-link>
 2. Install required libraries
 
 ```bash
-pip install pandas numpy matplotlib seaborn
+pip install pandas
 ```
 
 3. Open Jupyter Notebook
@@ -180,12 +159,12 @@ jupyter notebook
 4. Run the notebook
 
 ```bash
-customer_shopping_behavior.ipynb
+customer_shopping_behavior-checkpoint.ipynb
 ```
 
 ### SQL Analysis
 
-1. Import the dataset into PostgreSQL, MySQL, or SQL Server.
+1. Import the dataset into PostgreSQL.
 2. Execute the SQL queries provided in:
 
 ```text
@@ -209,7 +188,7 @@ Customer Behavior Dashboard.pbix
 * Customer segmentation using machine learning.
 * Sales forecasting and predictive analytics.
 * Automated dashboard refresh.
-* Advanced customer lifetime value (CLV) analysis.
+* Advanced Customer Lifetime Value (CLV) analysis.
 
 ---
 
