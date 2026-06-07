@@ -40,8 +40,7 @@ The data was analyzed to identify trends, customer behavior patterns, and busine
 * SQL
 
   * PostgreSQL
-  * MySQL
-  * SQL Server
+
 
 ### Visualization
 
